@@ -2,7 +2,7 @@
 import { createRoot } from 'react-dom/client'
 import './index.scss'
 import App from './App.jsx'
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 
 import Home from './pages/Home.jsx';
 import ContadorClicks from './pages/ContadorClicks.jsx';
@@ -13,7 +13,7 @@ import CalculadoraSencilla from './pages/CalculadoraSencilla.jsx';
 import Temporizadores from './pages/Temporizadores.jsx';
 import GeneradorContraseñas from './pages/GeneradorContraseñas.jsx';
 import ContadorPalabras from './pages/ContadorPalabras.jsx';
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "",
     element: <App />,
