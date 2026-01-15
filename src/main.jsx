@@ -15,7 +15,7 @@ import GeneradorContraseñas from './pages/GeneradorContraseñas.jsx';
 import ContadorPalabras from './pages/ContadorPalabras.jsx';
 const router = createHashRouter([
   {
-    path: "",
+    path: "/",
     element: <App />,
   },
   {
