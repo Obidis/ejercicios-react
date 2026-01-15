@@ -1,0 +1,28 @@
+@use '/src/styles/utils/variables' as *;
+@use '/src/styles/utils/mixins' as *;
+
+
+#root {
+    width: 100em;
+    max-width: 100%;
+    margin: 0 auto;
+    overflow-x: hidden;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    border-radius: .6em;
+
+    h1 {
+
+        text-align: center;
+        text-decoration: underline;
+        font-size: 3rem;
+        color: $green-light;
+        margin-bottom: 3rem;
+        text-shadow: 2px 2px 4px $green-light;
+
+    }
+
+}

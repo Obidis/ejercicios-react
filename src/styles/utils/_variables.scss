@@ -1,0 +1,21 @@
+/* Breakpoints */
+$bp-tablet: 820px;
+$bp-mobil-horizontal: 896px;
+$bp-tablet-horizontal: 1180px;
+$bp-desktop: 1200px;
+
+
+/* Colors */
+$white: #ffffff;
+$black: #151515;
+$red: #f11313;
+$transparent: transparent;
+$green-light: #7BEF94;
+//gradientes
+$buttons: linear-gradient(to left, #f6f6f6, #7DC2EB 75%);
+$button-hover: linear-gradient(to right, #f6f6f6, #7DC2EB 125%);
+
+
+
+/* Transiciones */
+$trans: all .7s ease;

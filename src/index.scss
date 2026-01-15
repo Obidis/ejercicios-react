@@ -1,0 +1,13 @@
+@use './styles/layout/navbar';
+@use './styles/layout/switchColors';
+@use './styles/layout/contadorClicks';
+@use './styles/layout/listaDinamica';
+@use './styles/layout/filtrado';
+@use './styles/layout/calculadora';
+@use './styles/layout/contraseñas';
+@use './styles/layout/cuentaPalabras';
+@use './styles/base/reset';
+@use './styles/base/container';
+@use './styles/conponents/btns';
+@use './styles/utils/mixins';
+@use './styles/utils/variables';

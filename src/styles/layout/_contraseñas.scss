@@ -1,0 +1,53 @@
+@use '/src/styles/utils/mixins' as *;
+@use'/src/styles/utils/variables' as *;
+
+
+.contraseñas {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2em;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    border-radius: 2em;
+    margin: 6em auto;
+    padding: 1em 1em 5em 1em;
+    background-color: transparent;
+    box-shadow: 0px -10px 022px 1px $green-light inset;
+    border-radius: .6em;
+
+    .contraseñas-text {
+        font-size: 1.2rem;
+        color: $green-light;
+        margin-bottom: 3rem;
+    }
+
+    #contraseñas-input {
+        width: 5rem;
+        font-size: 2rem;
+        text-align: center;
+        font-family: 'Digital', serif;
+        border-radius: .3em;
+        background-color: $transparent;
+        border: 1px solid $green-light;
+        outline: none;
+        color: $green-light;
+    }
+
+    .resultado {
+        margin-bottom: 2rem;
+
+        .resultado-text {
+            font-size: 1.5em;
+            color: $green-light;
+            text-align: center;
+            background-color: $transparent;
+            border: 1px solid $green-light;
+            padding: .5em;
+            border-radius: .3em;
+            width: 20rem;
+            height: 1.5rem;
+        }
+    }
+}

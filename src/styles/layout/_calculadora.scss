@@ -1,0 +1,66 @@
+@use '/src/styles/utils/mixins' as *;
+@use'/src/styles/utils/variables' as *;
+
+.calculadora {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    text-align: center;
+    border-radius: 2em;
+    width: 40rem;
+    height: auto;
+    margin: 6em auto;
+    padding: 5em;
+    background-color: $transparent;
+    box-shadow: 0px -10px 022px 1px $green-light inset;
+    border-radius: .6em;
+
+    .calculadora-inputs {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+
+        .input {
+            width: 10rem;
+            color: $black;
+            font-size: 2rem;
+            font-weight: 600;
+            text-align: right;
+            font-family: 'Digital', serif;
+            border-radius: .3em;
+            background-color: $transparent;
+            border: 1px solid $green-light;
+            outline: none;
+            color: $green-light;
+        }
+
+    }
+
+    .resultado {
+        color: $black;
+        font-size: 2rem;
+        font-weight: 600;
+        text-align: right;
+        font-family: 'Digital', serif;
+        border-radius: .3em;
+        background-color: $transparent;
+        border: 1px solid $green-light;
+        outline: none;
+        color: $green-light;
+
+    }
+
+    .buttons {
+
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        gap: 1em;
+        flex-wrap: wrap;
+
+    }
+
+}

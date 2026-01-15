@@ -1,0 +1,121 @@
+@use '/src/styles/utils/variables' as *;
+
+@mixin breakpoint($bp) {
+  @if $bp ==mobilhorizontal {
+    @media (min-width: v.$bp-mobil-horizontal) {
+      @content;
+    }
+  }
+
+  @if $bp ==tablet {
+    @media (min-width: $bp-tablet) {
+      @content;
+    }
+  }
+
+  @if $bp ==mobil {
+    @media (min-width: $bp-mobil-horizontal) {
+      @content;
+    }
+  }
+
+  @if $bp ==tablethorizontal {
+    @media (min-width: $bp-tablet-horizontal) {
+      @content;
+    }
+  }
+
+  @if $bp ==desktop {
+    @media (min-width: $bp-desktop) {
+      @content;
+    }
+  }
+}
+
+/* butons */
+@mixin button {
+  display: inline-block;
+  background-color: transparent;
+  transition: $trans;
+  text-align: center;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  color: $green-light;
+  margin-right: 1rem;
+  cursor: pointer;
+  border: 1px solid $green-light;
+
+  &:hover {
+    border: 1px solid $red;
+    color: $red;
+  }
+
+}
+
+@mixin button2 {
+  display: inline-block;
+  background-color: transparent;
+  color: $green-light;
+  transition: $trans;
+  text-align: center;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid $green-light;
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover {
+    border: 1px solid $red;
+    color: $red;
+  }
+
+
+}
+
+@mixin button3 {
+  display: inline-block;
+  background-color: transparent;
+  transition: $trans;
+  text-align: center;
+  font-size: 1rem;
+  width: 10rem;
+  height: 6rem;
+  color: $white;
+  margin: 1rem;
+  cursor: pointer;
+  border: 30px solid $green-light;
+
+  &:hover {
+    border: 1px solid $green-light;
+    color: $green-light;
+  }
+
+}
+
+@mixin button4 {
+  display: inline-block;
+  background-color: transparent;
+  transition: $trans;
+  text-align: center;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  color: $green-light;
+  margin-right: 1rem;
+  cursor: pointer;
+  border: 1px solid $green-light;
+
+  &:hover {
+
+    border: 1px solid $white;
+    color: $white;
+  }
+
+}
+
+// font
+@font-face {
+  font-family: 'Digital';
+  src: url('/src/assets/digital-7.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

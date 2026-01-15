@@ -1,0 +1,49 @@
+@use '/src/styles/utils/mixins' as *;
+@use'/src/styles/utils/variables' as *;
+
+
+
+
+.temporizador-container {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    border-radius: 2em;
+    width: 40rem;
+    height: auto;
+    margin: 6em auto;
+    padding: 5em;
+    background-color: $transparent;
+    box-shadow: 0px -10px 022px 1px $green-light inset;
+    border-radius: .6em;
+
+
+    .temporizador {
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+        align-items: center;
+
+        .temporizador__tiempo {
+            width: 8rem;
+            padding: .5rem;
+            font-size: 2rem;
+            text-align: right;
+            font-family: 'Digital', serif;
+            border-radius: .3em;
+            background-color: $transparent;
+            border: 1px solid $green-light;
+            outline: none;
+            color: $green-light;
+        }
+
+        .temporizador__botones {
+            display: flex;
+            gap: 1em;
+        }
+    }
+}

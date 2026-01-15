@@ -1,0 +1,113 @@
+@use '/src/styles/utils/mixins' as *;
+@use'/src/styles/utils/variables' as *;
+
+
+
+.todo-list {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 2em;
+  width: 40rem;
+  height: auto;
+  margin: 3em auto;
+  padding: 5em;
+  background-color: $transparent;
+  box-shadow: 0px -10px 022px 1px $green-light inset;
+  border-radius: .6em;
+
+}
+
+.input-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  gap: 1rem;
+}
+
+.input-div input {
+  width: 15rem;
+  height: 2rem;
+  color: $black;
+  font-size: 1rem;
+  text-align: center;
+  border-radius: .3em;
+  background-color: $transparent;
+  border: 1px solid $green-light;
+  outline: none;
+  color: $green-light;
+
+  &::placeholder {
+    color: $white;
+  }
+
+  &:focus {
+    box-shadow: 0px -10px 020px 1px $green-light inset;
+  }
+}
+
+.lista-dinamica {
+  margin: 1rem 0;
+  color: $white;
+  font-size: 1.2rem;
+  display: flex;
+  padding: 0.5rem;
+  border: 1px solid $green-light;
+  justify-content: space-between;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.checkbox-button {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  float: right;
+}
+
+.delete-button,
+.edit-button {
+  background-color: $transparent;
+  cursor: pointer;
+}
+
+.unComplited-text {
+  color: $red;
+  border: 1px solid $red;
+  font-size: 1rem;
+  padding: 0.3rem 0.4rem;
+}
+
+.complited-text {
+  color: $green-light;
+  border: 1px solid $green-light;
+  font-size: 1rem;
+  padding: 0.3rem 0.4rem;
+}
+
+.input-checkbox {
+  appearance: none;
+  cursor: pointer;
+  width: 1em;
+  height: 1em;
+  border: 2px solid $white;
+  border-radius: 50%;
+  background-color: $red;
+}
+
+.input-checkbox:checked {
+  background-color: $green-light;
+}
+
+.todo-p {
+  display: flex;
+  color: $white;
+  margin: 0;
+  font-size: 1.2rem;
+  text-align: center;
+}
