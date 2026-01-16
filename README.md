@@ -1,16 +1,17 @@
-# React + Vite
+Tareas finales para evaluación React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+📌 Descripción Proyecto público de frontend, donde aplico lo aprendido en HTML, CSS JS y React. He utilizado tecnologías y herramientas clave como:
 
-Currently, two official plugins are available:
+Sass: Uso de variables, anidación y organización de estilos.
+React: Para manejar los eventos del DOM.
+Vite: Para gestionar el entorno de desarrollo y mejorar la velocidad de compilación.
+Git: Control de versiones para gestionar cambios de manera eficiente.
+Flexbox y Grid: Para estructurar y distribuir los elementos de la página.
+Tipografías personalizadas: Implementación de fuentes específicas según el diseño.
+Animaciones y efectos: Uso de :hover y otros efectos para mejorar la experiencia visual.
+Este proyecto forma parte de mi máster en desarrollo full stack en la escuela Conquer Blocks.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ 
+📂 Tecnologías Utilizadas HTML5 CSS3 JS React Sass (SCSS) Flexbox y Grid Vite Git y GitHub
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+¡Gracias por visitar este proyecto! 🚀
